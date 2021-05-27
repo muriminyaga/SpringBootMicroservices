@@ -25,7 +25,7 @@ public class PaymentController {
 
     @PostMapping("/")
     public Payment savePayment(@RequestBody Payment payment){
-        log.info("PaymentController - Payment Saved {}",payment);
+        log.info("PaymentController - Creating Payment {}",payment);
         return paymentService.savePayment(payment);
     }
 
