@@ -1,6 +1,6 @@
 Microservices using SpringBoot | Full Demo   
 
-Demonstrates.
+Demonstrates.  
 1.Creating REST services using spring boot  
 2.Microservices discovery using Eureka  
 3.API gateway implementation  
